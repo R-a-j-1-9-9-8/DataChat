@@ -2,6 +2,11 @@
 
 The DataChat Application is designed to communicate with data by using natural language. This application is capable of performing data analytics and management operations.
 
+## Demo Video
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)]([https://www.youtube.com/watch?v=VID](https://www.youtube.com/watch?v=DFACoJQSdsg))
+
+
 ## Installation
 
 To install the necessary dependencies, run the following command:
