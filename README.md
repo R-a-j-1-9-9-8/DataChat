@@ -1,1 +1,21 @@
 # DataChat
+
+The DataChat Application is designed to communicate with data by using natural language. This application is capable of performing data analytics and management operations.
+
+## Installation
+
+To install the necessary dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+## Running the App
+
+To run the app, use the following command:
+```bash
+streamlit run Code/Home_Page.py --server.enableXsrfProtection false
+```
+
+## Configuration
+
+Before running the app, you need to configure your API key in the Analytic_Report.py and Data_Management.py files. Replace YOUR-API-KEY with your actual API key to enable the AI functionalities.
