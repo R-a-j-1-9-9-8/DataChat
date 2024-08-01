@@ -4,7 +4,6 @@ import pandas as pd
 import google.generativeai as genai
 import time
 import logging
-import time
 import functools
 import traceback
 
@@ -58,7 +57,7 @@ if st.session_state["message_list"] != []:
     instruction = st.session_state["message_list"][-1]
 
 # Gen AI model config
-genai.configure(api_key='AIzaSyDNKtbzCAuDTUC6HIrbVDOH2fDnEphpDME')
+genai.configure(api_key='YOUR-API-KEY')
 
 # Function to create prompt
 @st.cache_data
